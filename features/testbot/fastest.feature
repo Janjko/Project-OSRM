@@ -1,4 +1,4 @@
-@routing @weight
+@routing @fastest
 Feature: Choosing route based on length, speed, etc
 	
 	Background:
@@ -22,7 +22,7 @@ Feature: Choosing route based on length, speed, etc
 		 | x    | y  | xa,atb,by |
 		 | y    | x  | by,atb,xa |
 
-	Scenario: Pick  the shortest travel time, even when it's longer
+	Scenario: Pick the shortest travel time, even when it's longer
 		Given the node map
 		 |   | p |   |
 		 | a | s | b |
